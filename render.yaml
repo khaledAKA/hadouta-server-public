@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: your-app-name
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    build:
+      packages:
+        - fonts-noto
+        - fonts-noto-cjk
+        - fonts-noto-color-emoji
+        - fonts-noto-mono
+        - libxss1
+        - libatk-bridge2.0-0
+        - libgtk-3-0
+        - libnss3
+        - libx11-xcb1
+        - libxcomposite1
+        - libxdamage1
+        - libxrandr2
+        - libgbm1
+        - libasound2
+        - libpangocairo-1.0-0
+        - libcairo2
+        - libpango-1.0-0
+        - libx11-6
+        - libxext6
+        - libxfixes3
+        - ca-certificates
+        - wget
+        - gconf-service
+        - xvfb
